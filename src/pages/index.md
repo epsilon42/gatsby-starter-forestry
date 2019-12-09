@@ -2,6 +2,11 @@
 title: 'Home Page '
 template: blocks
 blocks:
+- template: block__hero
+  component: hero
+  background: transparent
+  title: Forestry's Gatsby Demo
+  subtitle: A Gatsby Starter Built for Forestry
 - template: block__feature
   component: feature
   image: "/src/images/forestry_markdown_editor.png"
@@ -9,11 +14,6 @@ blocks:
   orientation: reverse
   title: A CMS for your Gatsby Project
   content: Forestry gives content writers a <strong>user-friendly editing experience</strong>
-- template: block__hero
-  component: hero
-  background: transparent
-  title: Forestry's Gatsby Demo
-  subtitle: A Gatsby Starter Built for Forestry
 - template: block__feature
   component: feature
   background: light
