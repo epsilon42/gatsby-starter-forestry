@@ -21,8 +21,13 @@ fields:
   label: Footer
   type: textarea
   config:
-    wysiwyg: true
+    wysiwyg: false
     schema:
-      format: inline_html
+      format: ''
   hidden: false
   default: ''
+- name: site_logo
+  type: file
+  config:
+    maxSize: 250
+  label: Site Logo
