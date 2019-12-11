@@ -24,16 +24,16 @@ class BlocksTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        {post.frontmatter.blocks.map(block => {
+        {post.frontmatter.blocks.map((block, index) => {
           switch (block.component) {
             case '3col':
-              return <ThreeCol block={block} />
+              return <ThreeCol key={index} block={block} />
             case 'feature':
-              return <Feature block={block} />
+              return <Feature key={index} block={block} />
             case 'cta':
-              return <CTA block={block} />
+              return <CTA key={index} block={block} />
             case 'hero':
-              return <Hero block={block} />
+              return <Hero key={index} block={block} />
             default:
               return ''
           }
