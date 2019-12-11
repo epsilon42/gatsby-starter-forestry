@@ -5,8 +5,8 @@ blocks:
 - template: block__hero
   component: hero
   background: transparent
-  title: Forestry's Gatsby Demo
-  subtitle: A Gatsby Starter Built for Forestry
+  title: Licensed Fremantle Electrician
+  subtitle: Contact us now for a no-obligation free quote
 - template: block__feature
   component: feature
   image: "/src/images/forestry_markdown_editor.png"
