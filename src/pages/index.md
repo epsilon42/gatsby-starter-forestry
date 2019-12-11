@@ -10,7 +10,7 @@ blocks:
 - template: block__feature
   component: feature
   image: "/src/images/IMG_3650.jpg"
-  background: primary
+  background: dark
   orientation: reverse
   title: Commercial & Residential Electrical Services for Fremantle and Perth metro
     area
