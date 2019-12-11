@@ -9,11 +9,15 @@ blocks:
   subtitle: Contact us now for a no-obligation free quote
 - template: block__feature
   component: feature
-  image: "/src/images/forestry_markdown_editor.png"
+  image: "/src/images/IMG_3650.jpg"
   background: primary
   orientation: reverse
-  title: A CMS for your Gatsby Project
-  content: Forestry gives content writers a <strong>user-friendly editing experience</strong>
+  title: Commercial & Residential Electrical Services for Fremantle and Perth metro
+    area
+  content: "<strong>Zenan Electrical</strong> pride ourselves on being punctual, safe,
+    efficient, reliable. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Mauris faucibus venenatis sollicitudin. Etiam consequat odio eu erat tincidunt,
+    sed placerat nisi venenatis."
 - template: block__feature
   component: feature
   background: light
